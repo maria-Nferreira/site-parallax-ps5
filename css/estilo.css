@@ -8,7 +8,7 @@ body, html {
     height: 100%;
 }
 
-.container1, 
+#container1, 
 .container2, 
 .container3, 
 .container4,
@@ -22,10 +22,6 @@ body, html {
     position: relative;
 }
 
-.container1 {
-    background-image: url(../imagens/WallpaperDog-20520123.png);
-}
-
 .container2, 
 .container3, 
 .container4,
@@ -34,6 +30,9 @@ body, html {
     opacity: 0.7;
 }
 
+#container1 {
+    background-image: url(../imagens/WallpaperDog-20520123.png);
+}
 .container2 {
     background-image: url(../imagens/bg-controller.jpg);
     
@@ -98,4 +97,20 @@ span.titulo {
     font-family: "nexta-bold";
     text-transform: uppercase;
     background-color: rgba(255, 255, 255, 0.3);
+}
+
+.ancora {
+    text-align: center;
+    margin-top: 3em;
+}
+.ancora a {
+    text-decoration: none;
+    color: rgb(39, 37, 37);
+    font-size: 1em;
+    text-transform: uppercase;
+    font-family: "nexta-bold" ;
+}
+
+.ancora a:hover {
+    color: rgb(228, 207, 180);
 }
